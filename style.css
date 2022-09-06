@@ -65,6 +65,7 @@ form button:hover {
   justify-content: space-between;
   align-items: center;
   transition: all 0.5ms ease;
+  border-radius: 25px;
 }
 
 .todoItem {
@@ -89,6 +90,7 @@ form button:hover {
 
 .deleteBtn {
   background: red;
+  border-radius:0 25px 25px 0;
 }
 
 .deleteBtn:hover {
